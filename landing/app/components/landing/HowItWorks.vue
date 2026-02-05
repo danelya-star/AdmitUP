@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import DecryptedText from './DecryptedText.vue'
+
 const steps = [
   {
     id: 1,
@@ -22,7 +24,9 @@ const steps = [
   <section class="py-16 md:py-24 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">How It Works</h2>
+        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">
+          <DecryptedText text="How It Works" animate-on="view" reveal-direction="center" />
+        </h2>
         <p class="text-lg text-gray-600">Three simple steps to your new career.</p>
       </div>
 

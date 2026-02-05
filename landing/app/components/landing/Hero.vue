@@ -1,13 +1,36 @@
 <script setup lang="ts">
+import { ref, onMounted } from 'vue'
 import Button from '~/components/ui/Button.vue'
+import DecryptedText from './DecryptedText.vue'
+import gsap from 'gsap'
+
+const heroContentRef = ref<HTMLElement | null>(null)
+
+onMounted(() => {
+  if (heroContentRef.value) {
+    const elements = heroContentRef.value.children
+    gsap.fromTo(elements, 
+      { opacity: 0 },
+      { 
+        opacity: 1, 
+        duration: 0.8, 
+        stagger: 0.2, 
+        ease: 'power2.out',
+        delay: 0.5 // Wait for header animation
+      }
+    )
+  }
+})
 </script>
 
 <template>
   <section class="relative overflow-hidden pt-16 pb-12 md:pt-24 md:pb-20 lg:pt-32 lg:pb-24">
     <div class="container mx-auto px-4 md:px-6">
-      <div class="flex flex-col items-center text-center">
+      <div ref="heroContentRef" class="flex flex-col items-center text-center">
         <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-brand-primary max-w-4xl mb-6">
-          Build Your Dream Career with <span class="text-brand-secondary">AI-Powered</span> Tools
+          <DecryptedText text="Build Your Dream Career with " animate-on="view" reveal-direction="start" class="inline" />
+          <span class="text-brand-secondary"><DecryptedText text="AI-Powered" animate-on="view" reveal-direction="center" class="inline" /></span>
+          <DecryptedText text=" Tools" animate-on="view" reveal-direction="end" class="inline" />
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mb-10 leading-relaxed">
           Create professional resumes, stunning portfolios, and get personalized career advice in seconds. Stand out from the crowd with the power of AI.
