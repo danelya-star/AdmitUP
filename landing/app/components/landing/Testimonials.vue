@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import DecryptedText from './DecryptedText.vue'
-
 const testimonials = [
   {
     quote: "I landed my dream job at a top tech company thanks to the resume I built here. The AI suggestions were spot on!",
@@ -24,9 +22,7 @@ const testimonials = [
   <section class="py-16 md:py-24 bg-white border-t border-gray-100">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">
-          <DecryptedText text="Trusted by Professionals" animate-on="view" reveal-direction="center" />
-        </h2>
+        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">Trusted by Professionals</h2>
         <p class="text-lg text-gray-600">Join thousands of users who have advanced their careers.</p>
       </div>
 

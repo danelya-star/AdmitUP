@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import FeatureCard from './FeatureCard.vue'
-import DecryptedText from './DecryptedText.vue'
 
 const features = [
   {
@@ -30,9 +29,7 @@ const features = [
   <section id="features" class="py-16 md:py-24 bg-white">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">
-          <DecryptedText text="Everything You Need to Succeed" animate-on="view" reveal-direction="center" />
-        </h2>
+        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">Everything You Need to Succeed</h2>
         <p class="text-lg text-gray-600">Powerful AI tools designed to help you land your dream job faster.</p>
       </div>
       
