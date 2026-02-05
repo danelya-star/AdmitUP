@@ -39,7 +39,7 @@ onMounted(() => {
         </div>
         
         <!-- Optional visual element/mockup could go here -->
-        <div class="mt-16 relative z-10 w-full max-w-5xl mx-auto rounded-xl bg-white overflow-hidden border border-gray-100">
+        <div class="mt-16 relative z-10 w-full max-w-5xl mx-auto rounded-xl bg-white overflow-hidden">
            <div class="aspect-[16/9] bg-gray-50 flex items-center justify-center">
               <span class="text-gray-400 font-medium">App Dashboard Mockup Placeholder</span>
            </div>

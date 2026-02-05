@@ -76,13 +76,13 @@ onMounted(() => {
 </script>
 
 <template>
-  <header ref="headerRef" class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
+  <header ref="headerRef" class="fixed top-0 left-0 w-full bg-white z-50">
     <div class="container mx-auto px-4 md:px-6">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Logo -->
         <div ref="logoRef" class="flex items-center gap-2">
           <div class="w-8 h-8 bg-brand-secondary rounded-lg"></div>
-          <span class="text-xl font-bold text-brand-primary">AI IELTS</span>
+          <span class="text-xl font-bold text-brand-primary">AI Career</span>
         </div>
 
         <!-- Desktop Navigation -->
@@ -116,7 +116,7 @@ onMounted(() => {
         <NuxtLink to="#features" @click="toggleMobileMenu" class="mobile-nav-item text-xl font-medium text-gray-800">Features</NuxtLink>
         <NuxtLink to="#how-it-works" @click="toggleMobileMenu" class="mobile-nav-item text-xl font-medium text-gray-800">How It Works</NuxtLink>
         <NuxtLink to="#pricing" @click="toggleMobileMenu" class="mobile-nav-item text-xl font-medium text-gray-800">Pricing</NuxtLink>
-        <hr class="border-gray-100 mobile-nav-item" />
+        <div class="mobile-nav-item py-2 opacity-10"></div>
         <NuxtLink to="/login" @click="toggleMobileMenu" class="mobile-nav-item text-xl font-medium text-gray-600">Log In</NuxtLink>
         <div class="mobile-nav-item pt-4">
           <Button to="/signup" class="w-full justify-center">Get Started</Button>
