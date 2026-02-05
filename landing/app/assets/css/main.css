@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -24,4 +25,18 @@ body {
     font-family: var(--font-sans);
     background-color: var(--color-bg-light);
     color: var(--color-brand-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jakarta Sans', serif !important;
+}
+
+html,
+body {
+    font-family: 'Google Sans', sans-serif;
 }

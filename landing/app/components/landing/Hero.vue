@@ -47,6 +47,8 @@ onMounted(() => {
       </div>
     </div>
     
+    </div>
+    
     <!-- Decorative background elements -->
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 pointer-events-none">
        <div class="absolute top-[20%] left-[10%] w-72 h-72 bg-blue-100 rounded-full blur-3xl opacity-60"></div>
