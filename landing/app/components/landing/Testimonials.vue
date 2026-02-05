@@ -1,19 +1,19 @@
 <script setup lang="ts">
 const testimonials = [
   {
-    quote: "I landed my dream job at a top tech company thanks to the resume I built here. The AI suggestions were spot on!",
-    author: "Sarah J.",
-    role: "Product Designer"
+    quote: "My Writing score improved from 6.0 to 7.0 in just one month. The AI feedback was incredibly accurate.",
+    author: "Amina K.",
+    role: "IELTS Academic Candidate"
   },
   {
-    quote: "The portfolio builder is a game changer. I had a professional site up in minutes without writing a single line of code.",
-    author: "Michael T.",
-    role: "Software Engineer"
+    quote: "Speaking practice felt like a real IELTS interview. I became much more confident before the exam.",
+    author: "Daniel M.",
+    role: "International Student"
   },
   {
-    quote: "Incredible tool. It helped me rephrase my experience to highlight my achievements much better than I could alone.",
-    author: "Elena R.",
-    role: "Marketing Manager"
+    quote: "Best IELTS platform I’ve tried. Clear explanations, real band scores, and no stress.",
+    author: "Sophia L.",
+    role: "IELTS General Training"
   }
 ]
 </script>
@@ -22,8 +22,8 @@ const testimonials = [
   <section class="py-16 md:py-24 bg-white border-t border-gray-100">
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">Trusted by Professionals</h2>
-        <p class="text-lg text-gray-600">Join thousands of users who have advanced their careers.</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">Trusted by IELTS Test Takers</h2>
+        <p class="text-lg text-gray-600">Join thousands of students who improved their IELTS scores.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

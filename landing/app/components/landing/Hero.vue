@@ -27,13 +27,14 @@ onMounted(() => {
     <div class="container mx-auto px-4 md:px-6">
       <div ref="heroContentRef" class="flex flex-col items-center text-center">
         <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-brand-primary max-w-4xl mb-6">
-          Build Your Dream Career with <span class="text-brand-secondary">AI-Powered</span> Tools
+          Build Your IELTS Success with <span class="text-brand-secondary">AI-Powered</span> Tools
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mb-10 leading-relaxed">
-          Create professional resumes, stunning portfolios, and get personalized career advice in seconds. Stand out from the crowd with the power of AI.
+          Prepare for IELTS smarter, faster, and more effectively with AI.
+          Practice speaking, improve writing, expand vocabulary, and get personalized feedback in seconds.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-          <Button size="lg" to="/signup">Get Started for Free</Button>
+          <Button size="lg" to="/signup">Start Practicing for Free</Button>
           <Button variant="outline" size="lg" to="#features">Learn More</Button>
         </div>
         

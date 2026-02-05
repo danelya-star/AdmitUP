@@ -7,13 +7,13 @@ const steps = [
   },
   {
     id: 2,
-    title: 'Input Your Data',
-    description: 'Upload your LinkedIn PDF or manually enter your experience.',
+    title: 'Choose Your Focus',
+    description: 'Select Writing, Speaking, Reading, or Listening — or prepare for the full test.',
   },
   {
     id: 3,
-    title: 'Get Results',
-    description: 'AI generates a polished resume and portfolio instantly.',
+    title: 'Get Feedback',
+    description: 'AI analyzes your answers and gives you clear, actionable improvements instantly.',
   },
 ]
 </script>
@@ -23,7 +23,7 @@ const steps = [
     <div class="container mx-auto px-4 md:px-6">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-5xl font-bold text-brand-primary mb-4">How It Works</h2>
-        <p class="text-lg text-gray-600">Three simple steps to your new career.</p>
+        <p class="text-lg text-gray-600">Three simple steps to your IELTS success.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">

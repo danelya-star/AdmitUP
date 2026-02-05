@@ -82,7 +82,7 @@ onMounted(() => {
         <!-- Logo -->
         <div ref="logoRef" class="flex items-center gap-2">
           <div class="w-8 h-8 bg-brand-secondary rounded-lg"></div>
-          <span class="text-xl font-bold text-brand-primary">AI Career</span>
+          <span class="text-xl font-bold text-brand-primary">AI IELTS</span>
         </div>
 
         <!-- Desktop Navigation -->

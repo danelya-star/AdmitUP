@@ -5,20 +5,20 @@
         <div class="col-span-1 md:col-span-1">
           <div class="text-2xl font-bold text-brand-primary mb-4 flex items-center gap-2">
              <div class="w-8 h-8 bg-brand-secondary rounded-lg"></div>
-             AI Career
+             AI IELTS
           </div>
           <p class="text-gray-500 text-sm leading-relaxed">
-            Empowering professionals with next-generation tools for resume building and portfolio creation.
+            Helping students worldwide achieve their dream IELTS score with next-generation AI tools.
           </p>
         </div>
         
         <div>
           <h4 class="font-bold text-gray-900 mb-4">Product</h4>
           <ul class="space-y-3 text-sm text-gray-600">
-            <li><a href="#" class="hover:text-brand-secondary transition-colors">Resume Builder</a></li>
-            <li><a href="#" class="hover:text-brand-secondary transition-colors">Portfolio Maker</a></li>
-            <li><a href="#" class="hover:text-brand-secondary transition-colors">Examples</a></li>
-            <li><a href="#" class="hover:text-brand-secondary transition-colors">Pricing</a></li>
+            <li><a href="#" class="hover:text-brand-secondary transition-colors">Writing Checker</a></li>
+            <li><a href="#" class="hover:text-brand-secondary transition-colors">Speaking Simulator</a></li>
+            <li><a href="#" class="hover:text-brand-secondary transition-colors">Vocabulary Trainer</a></li>
+            <li><a href="#" class="hover:text-brand-secondary transition-colors">Study Plans</a></li>
           </ul>
         </div>
         
@@ -26,9 +26,9 @@
           <h4 class="font-bold text-gray-900 mb-4">Company</h4>
           <ul class="space-y-3 text-sm text-gray-600">
             <li><a href="#" class="hover:text-brand-secondary transition-colors">About Us</a></li>
-            <li><a href="#" class="hover:text-brand-secondary transition-colors">Careers</a></li>
             <li><a href="#" class="hover:text-brand-secondary transition-colors">Blog</a></li>
             <li><a href="#" class="hover:text-brand-secondary transition-colors">Contact</a></li>
+            <li><a href="#" class="hover:text-brand-secondary transition-colors">Pricing</a></li>
           </ul>
         </div>
         
@@ -43,7 +43,7 @@
       </div>
       
       <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-100">
-        <p class="text-sm text-gray-400">© 2026 AI Career Inc. All rights reserved.</p>
+        <p class="text-sm text-gray-400">© 2026 AI IELTS. All rights reserved.</p>
         <div class="flex space-x-6 mt-4 md:mt-0">
           <a href="#" class="text-gray-400 hover:text-brand-secondary transition-colors">
             <span class="sr-only">Twitter</span>
