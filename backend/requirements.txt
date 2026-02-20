@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+motor
+anthropic
+pydantic[email]
+passlib[bcrypt]
+python-jose[cryptography]
+openai

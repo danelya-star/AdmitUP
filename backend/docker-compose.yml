@@ -1,0 +1,29 @@
+services:
+  backend:
+    build: .
+    container_name: backend
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    depends_on:
+      - postgres_db
+    environment:
+      DATABASE_URL: "postgresql://postgres:postgres@postgres_db:5432/mydatabase"
+
+  postgres_db:
+    image: postgres:16
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5433:5432"
+    volumes:
+      - backend_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  backend_postgres_data:
