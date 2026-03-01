@@ -16,15 +16,21 @@ app = FastAPI(
 
 # Настройка CORS
 origins = [
-    "http://localhost:3000", # React (Create React App)
-    "http://localhost:5173", # React (Vite)
-    "http://localhost:3001"  # Nuxt 3 (если вы запускаете лендинг локально)
+    # Localhost для разработки
+    "http://localhost:3000",      # React (Create React App)
+    "http://localhost:5173",      # React (Vite) / Vue
+    "http://localhost:3001",      # Nuxt 3 лендинг
+    "http://localhost:8080",      # Другие варианты
+    # Production
+    "https://tvoj-frontend.onrender.com",  # Замените на реальный URL фронтенда
+    # Для локальной сети (если нужно)
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:5173",
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_origin_regex="https?://.*", # Разрешает запросы с любого IP и порта (удобно для локальной сети)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
